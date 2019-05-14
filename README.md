@@ -13,7 +13,7 @@ The intention is for you to enter a few details about your employment including:
 * Tax number
 * Work schedule
 
-Upon doing so, it will produce tables of the important information about you and your job. This information can then be used to keep track of your pay and other work information, to understand if and how much your employer is not being honest and as evidence in an employment dispute, including going to court.
+Upon doing so, it will produce tables of the important information about you and your job. This information can then be used to keep track of your pay and other work information, to understand if and to what extent your employer is not being honest and as evidence in an employment dispute, including going to court.
 
 It is currently in pre-alpha state, not suitable for anyone to use except for testing.
 
