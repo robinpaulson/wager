@@ -2,7 +2,7 @@ Wager is an app for Android, iOS and desktop.
 
 It is designed so you may track the numerical parts of your paid employment, including:
 * Pay
-* Income tax
+* Income tax & other deductions
 * Annual leave
 * Sick leave
 
