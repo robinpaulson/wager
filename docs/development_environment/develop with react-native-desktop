@@ -1,0 +1,63 @@
+React-native by default was intended to work on Apple's iOS and Google's Android
+devices. Given the nature of the code, it can also be made to work on a variety
+of other platforms. Canonical, the developers of Ubuntu, initially extended the
+code to work on Ubuntu, this was then forked multiple times. The
+best-supported desktop Linux port of react-native-desktop can be found here:
+https://github.com/status-im/react-native-desktop
+
+They provide instructions for using it on desktop Linux (not just Ubuntu), but
+the directions are not great. Until they are fixed, follow below:
+
+1. Prerequisites
+cmake:
+$ sudo apt install cmake-qt-gui
+
+Qt5.11.2
+
+The version of Qt5 (5.9) included with Ubuntu 18.04 (and likely 16.04) does not
+work with react-native-desktop, version 5.11.2 is recommended by the developers.
+Later versions, for instance the version in 18.10 and 19.04 may be suitable, but
+we would not advise using a non-LTS version of Ubuntu for development, as they
+are only supported for a few months.
+
+If you are using Ubuntu, version 5.11.2 can be found in a PPA here:
+https://launchpad.net/~beineri/+archive/ubuntu/opt-qt-5.11.2-bionic
+
+You will need the qt511-meta-full package:
+$ sudo apt install qt511-meta-full
+
+This may also work on other apt/deb-based systems, including Mint and Debian,
+but this is untested.
+
+For developing on non-Ubuntu systems, read this:
+https://github.com/status-im/react-native-desktop/blob/master/docs/InstallPrerequisites.md
+
+In the part which deals with Qt5, you can skip the "Account signin" page. Also,
+if you are using a Linux-based system, at the "Select Components" screen, you
+will only need the sections labelled "Desktop gcc 64-bit"
+
+2. Once the prerequisites are installed, get the node package for react-native:
+$ npm install -g react-native-cli
+
+This will install it globally, making it available to all projects.
+
+3. To initialise a project based on react-native-desktop, run this line:
+$ react-native init DesktopSampleApp --version status-im/react-native-desktop
+(DesktopSampleApp should be replaced with the name of your app) then:
+$ cd DesktopSampleApp
+$ react-native desktop
+
+This will install the react-native-desktop files into the node_modules folder
+
+4. Link the project to Qt version 5.11.2
+In DesktopSampleApp/desktop, double-click on:
+If you are using Ubuntu and have installed Qt5 from the PPA listed above, copy
+the file "CMakeCache.txt" from "wager/development_environment/config/" to 
+"DesktopSampleApp/desktop/". Overwrite the file which is already there.
+
+5. Replace the (broken) build script provided by the developers of
+react-native-desktop
+
+Copy the file "build.sh" from "wager/development_environment/config/" to 
+"DesktopSampleApp/desktop/". Overwrite the file which is already there.
+

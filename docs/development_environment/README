@@ -1,0 +1,11 @@
+We currently develop using a combination of expo and react-native-desktop.
+
+These enable live reloading of code and automated builds which mean we have a
+very fast turnaround between writing and seeing the effects of what we write.
+
+See the respective documents for details on how to set up the environments.
+
+At the moment, we do not provide information or support for developing Wager on
+Windows, macOS or any other non-Linux-based desktop operating system. You can
+probably put together a system for this, although it may take more effort to
+maintain and use.
