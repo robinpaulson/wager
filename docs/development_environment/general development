@@ -1,10 +1,14 @@
 For whichever environment you are using, the following are essential:
 git and node
 
-The version of git supplied with you desktop Linux-based operating system is
-fine, although later versions may be faster.
+It is possible to develop using any operating system, including Windows,
+although we recommend a Unix-like OS; any  BSD- or Linux-based system should be
+fine, including macOS. Our preference is for Ubuntu and Debian.
 
-node may also be installed from your OS repositories, but it will certainly be
+The version of git supplied with your desktop BSD- or Linux-based operating
+system is fine, although later versions may be faster.
+
+Node may also be installed from your OS repositories, but it will certainly be
 relatively old and not include the important supplementary tools including npm.
 
 We recommend using nvm (node version manager) to install node, npm and other
@@ -17,7 +21,8 @@ latest version, 12. For the moment, we are using whichever is the latest minor
 version of node 11.
 
 As an alternative to npm, yarn is increasingly popular, does an almost identical
-job and appears to be faster, although it is not as well tested.
+job and appears to be faster, although it is not as well tested and cannot use
+npm lock files.
 
 For code, any editor with syntax-highlighting is acceptable, although Atom has
 many packages available to assist with coding in general and with react-native

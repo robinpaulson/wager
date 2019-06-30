@@ -4,15 +4,18 @@ Most free software and open source licences produce a "wild west", a sprawling m
 
 As such, we restrict who may submit code modifications or take part in discussions. All participants must be vetted before they may do so.
 
-We do however allow anyone to view the code, to understand what it might do to their system and information. However, we do not allow forking or development beyond that which is permitted and directed by the steering committee.
+We do however allow anyone to view the code, to understand what it might do to their system and information. We do not allow forking or development beyond that which is permitted and directed by the steering committee.
+
+All code is Copyright The Wager Project. Contributors (where they permit reproduction of their names) are noted in the contributions.md file
 
 The licence
 ===========
 You may view, study, review and comment upon the source code
 You may compile the source code, for any hardware or operating system
-You may modify the code, but not distribute that modified code unless you are a member of the developer group, or to other members of the development group (for the sole purpose of demonstrating your proficiency to the steering committee)
+You may not modify the code, unless permitted to do so by the steering committee
+?? You may not link to the code, except for the purpose of developing scripts for employment law jurisdictions
 You may redistribute the original source code, so long as this licence remains with the code; all conditions are also transferred
 
-no warranty
+No warranty
 ===========
 No warranty or fitness for purpose is implied.

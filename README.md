@@ -6,7 +6,7 @@ It is designed so you may track the numerical parts of your paid employment, inc
 * Annual leave
 * Sick leave
 
-The intention is for you to enter a few details about your employment including:
+The intention is for you to enter a few details about your employment, including:
 * Hourly rate
 * Country
 * Employer name
